@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>{{msg}}</h2>
+    
 
   </div>
 </template>
@@ -14,7 +15,9 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },methods:{
-    
+    get: function(){
+      console.log("hello")
+    }
   }
 }
 </script>
